@@ -74,6 +74,7 @@ Here’s the ready-to-paste section you can add under your `README.md` (after th
 > 📘 *Reference: Role structure and responsibilities inspired by ITRexGroup’s software development team model.*
 
 ---
+### ⚙️ Technology Stack
 | **Technology**                  | **Purpose in the Project**                                                                                                                        |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Django**                      | A high-level Python web framework that provides a robust foundation for building the backend, handling routing, models, and business logic.       |

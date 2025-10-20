@@ -236,6 +236,26 @@ Ensuring the security of the Airbnb Clone backend is critical to protect sensiti
 ---
 
 
+### ⚡ CI/CD Pipeline
+
+**Continuous Integration (CI)** and **Continuous Deployment/Delivery (CD)** are practices that automate the process of integrating code changes, testing, and deploying applications. They ensure that updates to the Airbnb Clone backend are delivered reliably and quickly while minimizing human error.
+
+#### Key Benefits for This Project
+
+* **Early Detection of Bugs:** Automated tests run with each code change, preventing regressions and catching errors early.
+* **Faster Development Cycles:** Developers can safely merge changes knowing that automated checks will validate the code.
+* **Consistent Deployment:** Ensures that the application runs the same way in development, staging, and production environments.
+* **Reduced Human Error:** Automation removes repetitive manual steps and reduces the risk of misconfiguration.
+
+#### Tools
+
+* **GitHub Actions:** Automates testing, linting, and deployment whenever code is pushed or merged.
+* **Docker:** Packages the application and its dependencies into containers for consistent execution across environments.
+* **Celery + Redis (for async jobs):** Tasks like email notifications or payment processing can be automatically queued and monitored.
+* **PostgreSQL & Migrations:** Ensures that database changes are applied automatically during deployment.
+
+---
+
 
 
 

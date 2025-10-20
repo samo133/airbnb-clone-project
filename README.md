@@ -74,6 +74,16 @@ Here’s the ready-to-paste section you can add under your `README.md` (after th
 > 📘 *Reference: Role structure and responsibilities inspired by ITRexGroup’s software development team model.*
 
 ---
+| **Technology**                  | **Purpose in the Project**                                                                                                                        |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Django**                      | A high-level Python web framework that provides a robust foundation for building the backend, handling routing, models, and business logic.       |
+| **Django REST Framework (DRF)** | Extends Django to create RESTful APIs easily, handling serialization, authentication, and request/response management.                            |
+| **GraphQL**                     | Provides a flexible and efficient query interface for clients to request only the data they need, complementing REST APIs.                        |
+| **PostgreSQL**                  | Relational database for storing structured data such as users, properties, bookings, and reviews. Supports indexing and optimized queries.        |
+| **Celery**                      | Task queue for executing asynchronous jobs, such as sending emails, processing payments, or handling background tasks.                            |
+| **Redis**                       | In-memory database used for caching frequently accessed data and for managing Celery task queues. Improves performance and reduces database load. |
+| **Docker**                      | Containerization platform that ensures the application runs consistently across different environments (development, staging, production).        |
+| **CI/CD Pipelines**             | Automates testing and deployment, ensuring that changes to the backend are safely integrated and deployed.                                        |
 
 
 > 💡 *Tip:* Each milestone will be tagged with its corresponding release (`v0.1`, `v0.2`, etc.) and documented under `/docs` for traceability.

@@ -86,6 +86,90 @@ Here’s the ready-to-paste section you can add under your `README.md` (after th
 | **Docker**                      | Containerization platform that ensures the application runs consistently across different environments (development, staging, production).        |
 | **CI/CD Pipelines**             | Automates testing and deployment, ensuring that changes to the backend are safely integrated and deployed.                                        |
 
+---
+
+
+### 🗄️ Database Design
+
+#### **Entities & Key Fields**
+
+1. **Users**
+
+* `id` (Primary Key)
+* `username`
+* `email`
+* `password_hash`
+* `date_joined`
+
+**Notes:** Each user can act as a guest or host. One user can have multiple bookings and properties.
+
+---
+
+2. **Properties**
+
+* `id` (Primary Key)
+* `owner_id` (Foreign Key → Users)
+* `title`
+* `description`
+* `location`
+* `price_per_night`
+
+**Notes:** Each property belongs to a user (owner). Users can list multiple properties. Properties can have multiple bookings and reviews.
+
+---
+
+3. **Bookings**
+
+* `id` (Primary Key)
+* `user_id` (Foreign Key → Users)
+* `property_id` (Foreign Key → Properties)
+* `check_in_date`
+* `check_out_date`
+* `status` (confirmed, cancelled, pending)
+
+**Notes:** Each booking links a user to a property. One property can have multiple bookings over time.
+
+---
+
+4. **Reviews**
+
+* `id` (Primary Key)
+* `user_id` (Foreign Key → Users)
+* `property_id` (Foreign Key → Properties)
+* `rating` (1–5)
+* `comment`
+* `created_at`
+
+**Notes:** A user can leave multiple reviews, one per booking typically. Properties can have multiple reviews.
+
+---
+
+5. **Payments**
+
+* `id` (Primary Key)
+* `booking_id` (Foreign Key → Bookings)
+* `user_id` (Foreign Key → Users)
+* `amount`
+* `payment_method`
+* `status`
+
+**Notes:** Each payment is associated with a booking. A user may have multiple payments over time.
+
+---
+
+#### **Entity Relationships Overview**
+
+* **User → Property:** One-to-many (a user can own multiple properties)
+* **User → Booking:** One-to-many (a user can make multiple bookings)
+* **Property → Booking:** One-to-many (each property can be booked multiple times)
+* **User → Review:** One-to-many (a user can leave reviews)
+* **Property → Review:** One-to-many (each property can have multiple reviews)
+* **Booking → Payment:** One-to-one or one-to-many (depending on payment installments)
+
+---
+
+
+
 
 > 💡 *Tip:* Each milestone will be tagged with its corresponding release (`v0.1`, `v0.2`, etc.) and documented under `/docs` for traceability.
 

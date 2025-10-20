@@ -168,6 +168,33 @@ Here’s the ready-to-paste section you can add under your `README.md` (after th
 
 ---
 
+### 🧰 Feature Breakdown
+
+1. **User Management**
+   Manages user registration, authentication, and profile management. This feature ensures that users can securely sign up, log in, and manage their personal information, forming the foundation for all interactions in the system.
+
+2. **Property Management**
+   Allows hosts to create, update, retrieve, and delete property listings. This feature provides the core content of the platform, enabling users to browse available properties and hosts to manage their offerings.
+
+3. **Booking System**
+   Handles reservations and booking management, including check-in and check-out dates. It connects users with properties, ensuring that availability is tracked accurately and bookings are confirmed or updated efficiently.
+
+4. **Payment Processing**
+   Processes transactions related to bookings and records payment details. This feature ensures that payments are securely handled, enabling hosts to receive funds and users to complete transactions reliably.
+
+5. **Review System**
+   Enables users to leave reviews and ratings for properties. This feature provides feedback, builds trust between users and hosts, and contributes to the overall quality and reputation of listings.
+
+6. **Data Optimization**
+   Implements database indexing and caching strategies to improve performance. This feature ensures that frequently accessed data is retrieved quickly, reducing load times and providing a smooth user experience.
+
+7. **API Documentation**
+   Provides clear documentation for REST and GraphQL APIs using OpenAPI standards. This feature allows developers to understand and integrate with the backend efficiently, supporting future expansion and third-party integrations.
+
+---
+
+
+
 
 
 

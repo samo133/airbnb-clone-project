@@ -48,11 +48,7 @@ airbnb_clone_backend/
 6. **Add testing, documentation, and CI/CD pipelines**  
 
 ## 👥 Contributors
-- **Osama M. Abdelaal** — Backend Engineer (Lead Developer)  
-
-Perfect next task — this one will make your README more professional and help you think in terms of **software team architecture** (important for your backend/architecture path).
-
-Here’s the ready-to-paste section you can add under your `README.md` (after the “📅 Roadmap” section):
+- **Osama Mohamed** — Backend Engineer (Lead Developer)  
 
 ---
 

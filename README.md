@@ -50,7 +50,31 @@ airbnb_clone_backend/
 ## 👥 Contributors
 - **Osama M. Abdelaal** — Backend Engineer (Lead Developer)  
 
+Perfect next task — this one will make your README more professional and help you think in terms of **software team architecture** (important for your backend/architecture path).
+
+Here’s the ready-to-paste section you can add under your `README.md` (after the “📅 Roadmap” section):
+
 ---
+
+### 👥 Team Roles
+
+| **Role**                                                | **Description**                                                                 | **Key Responsibilities**                                                                                                                                                                                    |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Backend Developer**                                   | Designs and implements the core application logic, APIs, and integrations.      | - Build RESTful and GraphQL APIs<br>- Define data models and serialization<br>- Ensure secure authentication and authorization<br>- Integrate external services (e.g., Stripe, Email, Notifications)        |
+| **Database Administrator (DBA)**                        | Manages the database layer and ensures performance, integrity, and reliability. | - Design and optimize PostgreSQL schemas<br>- Implement indexing and query optimization<br>- Manage migrations and backups<br>- Ensure data security and compliance                                         |
+| **DevOps Engineer**                                     | Oversees deployment pipelines, containerization, and system monitoring.         | - Set up CI/CD pipelines (GitHub Actions, Docker, etc.)<br>- Manage environments (development, staging, production)<br>- Configure Redis and Celery for background jobs<br>- Monitor performance and uptime |
+| **QA Engineer**                                         | Ensures that the system meets quality standards through testing.                | - Write automated test cases (unit, integration, end-to-end)<br>- Conduct manual testing of APIs and workflows<br>- Track bugs and coordinate fixes<br>- Verify deployment readiness                        |
+| **Project Manager**                                     | Coordinates the development process, manages timelines, and aligns team goals.  | - Define milestones and deliverables<br>- Facilitate communication between team members<br>- Track progress and remove blockers<br>- Ensure alignment with business objectives                              |
+| **System Architect**                                    | Defines the overall structure and high-level design of the backend system.      | - Design service architecture (monolith → microservices)<br>- Choose appropriate technologies and frameworks<br>- Define scaling and performance strategies<br>- Align technical design with business goals |
+| **UI/UX Designer** *(Optional, for full product scope)* | Focuses on designing the interface and experience for end users.                | - Create user-friendly mockups and flows<br>- Work with backend to define data needs for the frontend<br>- Ensure usability and accessibility                                                               |
+| **Product Owner**                                       | Represents the business side, setting priorities and defining features.         | - Translate business needs into technical requirements<br>- Prioritize features for each sprint<br>- Validate that the delivered product matches business goals                                             |
+
+---
+
+> 📘 *Reference: Role structure and responsibilities inspired by ITRexGroup’s software development team model.*
+
+---
+
 
 > 💡 *Tip:* Each milestone will be tagged with its corresponding release (`v0.1`, `v0.2`, etc.) and documented under `/docs` for traceability.
 

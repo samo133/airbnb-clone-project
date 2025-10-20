@@ -194,6 +194,48 @@ Here’s the ready-to-paste section you can add under your `README.md` (after th
 ---
 
 
+### 🔒 API Security
+
+Ensuring the security of the Airbnb Clone backend is critical to protect sensitive user data, financial transactions, and the integrity of the platform. The following key security measures will be implemented:
+
+1. **Authentication**
+
+   * **What:** Users must log in to access protected endpoints using secure methods (e.g., JWT tokens or session-based authentication).
+   * **Why:** Verifies the identity of users and prevents unauthorized access to personal data or booking information.
+
+2. **Authorization**
+
+   * **What:** Role-based access control ensures that users can only perform actions allowed for their role (e.g., guest vs. host).
+   * **Why:** Prevents users from accessing or modifying data they don’t own, maintaining data integrity and privacy.
+
+3. **Data Validation & Input Sanitization**
+
+   * **What:** All API inputs are validated and sanitized to prevent injection attacks (e.g., SQL injection, XSS).
+   * **Why:** Protects the system from malicious requests that could corrupt the database or compromise user data.
+
+4. **Rate Limiting & Throttling**
+
+   * **What:** Limits the number of requests a client can make in a given time frame.
+   * **Why:** Prevents abuse, brute-force attacks, and ensures fair usage of system resources.
+
+5. **Secure Payment Handling**
+
+   * **What:** Payments are processed through trusted third-party providers (e.g., Stripe), using HTTPS and tokenization for sensitive data.
+   * **Why:** Ensures that financial information is never exposed or stored insecurely, protecting both users and hosts.
+
+6. **Logging & Monitoring**
+
+   * **What:** Security logs are maintained for critical actions (e.g., failed logins, payment errors) and monitored for suspicious activity.
+   * **Why:** Allows early detection of potential security breaches and helps in incident response.
+
+7. **Transport Security (HTTPS / TLS)**
+
+   * **What:** All API traffic is encrypted using HTTPS/TLS.
+   * **Why:** Prevents man-in-the-middle attacks and protects data in transit.
+
+---
+
+
 
 
 

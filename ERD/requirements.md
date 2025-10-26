@@ -5,7 +5,7 @@
 **File:** `requirements.md`  
 
 ## Scope
-Design an Entity–Relationship Diagram (ERD) for the Airbnb Clone backend covering **Users, Properties, Bookings, Reviews, and Payments**. Diagram must show entities, attributes (key ones), and relationships with correct cardinalities.
+Design an Entity–Relationship Diagram (ERD) for the Airbnb Clone backend covering **Users, Properties, Bookings, Reviews, and Payments**. The diagram must show entities, attributes (key ones), and relationships with correct cardinalities.
 
 ---
 

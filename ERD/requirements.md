@@ -127,3 +127,15 @@ erDiagram
     string provider_ref
     datetime created_at
   }
+
+### Indexing & Constraints (Recommended)
+
+- USERS(email), USERS(username) unique indexes
+
+- PROPERTIES(owner_id) index
+
+- BOOKINGS(property_id, check_in_date, check_out_date) composite index
+
+- REVIEWS(property_id) index; optional unique (user_id, property_id)
+
+- PAYMENTS(booking_id), PAYMENTS(user_id) indexes

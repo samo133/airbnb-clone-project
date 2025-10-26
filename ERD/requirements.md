@@ -66,8 +66,6 @@ Design an Entity–Relationship Diagram (ERD) for the Airbnb Clone backend cover
 - **Property 1 ──< Review** (a property can have many reviews)  
 - **Booking 1 ──< Payment** (allow multiple payments/attempts per booking)
 
-> If you prefer exactly one payment per booking, change to **Booking 1 ── 1 Payment** and enforce unique FK.
-
 ---
 
 ## ER Diagram 

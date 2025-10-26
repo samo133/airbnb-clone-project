@@ -1,7 +1,7 @@
 # Normalization to 3NF
 
 **Repo:** `alx-airbnb-database`  
-**File:** `ERD/normalization.md`  
+**File:** `normalization.md`  
 
 This document explains how the Airbnb Clone database schema is normalized to **Third Normal Form (3NF)**.  
 Entities in scope: **Users, Properties, Bookings, Reviews, Payments** (+ supporting lookup tables).

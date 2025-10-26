@@ -70,7 +70,7 @@ Design an Entity–Relationship Diagram (ERD) for the Airbnb Clone backend cover
 
 ---
 
-## Mermaid ER Diagram (renders on GitHub)
+## ER Diagram 
 
 ```mermaid
 erDiagram
